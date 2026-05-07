@@ -10,7 +10,7 @@
   transition: box-shadow var(--transition);
 }
 .navbar--scrolled {
-  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--border);
 }
 .navbar__inner {
   display: flex;
@@ -86,7 +86,6 @@
 }
 .navbar__search:focus-within {
   border-color: var(--navy);
-  box-shadow: 0 0 0 3px var(--accent-soft);
   background: #fff;
 }
 .navbar__search svg { color: var(--text-muted); flex-shrink: 0; }
@@ -136,7 +135,6 @@
   flex-direction: column;
   gap: 4px;
   z-index: 999;
-  box-shadow: var(--shadow-md);
 }
 .navbar__mobile.open { display: flex; }
 .navbar__mobile-search {
