@@ -1,0 +1,3 @@
+/* ProductCard styles are mostly in index.css (.prod-card) */
+/* Additional overrides if needed */
+.prod-card { cursor: pointer; }
